@@ -26,7 +26,7 @@ namespace GettingStartedHost
                 selfHost.Description.Behaviors.Add(smb);
 
                 // Step 5: Start the service.
-                selfHost.Open(); //test
+                selfHost.Open(); //test //another
                 Console.WriteLine("The service is ready.");
 
                 // Close the ServiceHost to stop the service.
