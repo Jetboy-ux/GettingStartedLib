@@ -14,7 +14,7 @@ namespace GettingStartedHost
 
             // Step 2: Create a ServiceHost instance.
             ServiceHost selfHost = new ServiceHost(typeof(CalculatorService), baseAddress);
-
+            //711
             try
             {
                 // Step 3: Add a service endpoint.
